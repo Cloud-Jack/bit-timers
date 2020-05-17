@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>BIT timer</title>
+</head>
+<body>
+  <div class="page flx flx-column flx-align-center">
+    <h1 class="page__title">Events</h1>
+    <div id="timers" class="flx flx-justify-between"></div>
+  </div>
+  <script src="index.js"></script>
+</body>
+</html>
+
+<style>
+  .page {
+    padding: 50px;
+  }
+  #timers {
+    width: 100%;
+    max-width: 1256px;
+  }
+  .parent {
+    box-shadow: 0px 2px 6px rgba(0,0,0,0.2);
+    border-radius: 5px;
+    padding: 20px;
+    flex: 1;
+    margin: 20px;
+  }
+  .date {
+    margin: 0 0 15px;
+  }
+  .flx {
+    display: flex;
+  }
+  .flx-justify-between {
+    justify-content: space-between;
+  }
+  .flx-justify-center {
+    justify-content: center;
+  }
+  .flx-align-center {
+    align-items: center;
+  }
+  .flx-column {
+    flex-direction: column;
+  }
+  .highlight {
+    color: red;
+  }
+</style>
